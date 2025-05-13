@@ -4,7 +4,7 @@ Este repositório contém um projeto básico desenvolvido com **HTML5** e **CSS3
 
 ---
 
-## 📄 Sobre o Projeto
+##  Sobre o Projeto
 
 O projeto é composto por duas páginas principais:
 
@@ -21,7 +21,7 @@ Formulário estilizado para inserção de:
 
 ---
 
-## 🖼️ Pasta `assets`
+##  Pasta `assets`
 
 O projeto inclui uma pasta chamada `assets` com as seguintes imagens utilizadas na página principal:
 
@@ -34,7 +34,7 @@ Certifique-se de que a pasta `assets` esteja no mesmo nível dos arquivos HTML p
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - HTML5
 - CSS3
@@ -43,7 +43,7 @@ Certifique-se de que a pasta `assets` esteja no mesmo nível dos arquivos HTML p
 
 ---
 
-## 🚀 Como Visualizar Localmente
+##  Como Visualizar Localmente
 
 1. Clone o repositório:
    ```bash
@@ -59,7 +59,7 @@ Certifique-se de que a pasta `assets` esteja no mesmo nível dos arquivos HTML p
 
 ---
 
-## 📚 Aprendizados
+##  Aprendizados
 
 Durante o desenvolvimento deste projeto, foram praticados os seguintes conceitos:
 
@@ -72,12 +72,12 @@ Durante o desenvolvimento deste projeto, foram praticados os seguintes conceitos
 
 ---
 
-## 👨‍🎓 Autor
+##  Autor
 
 Projeto desenvolvido por **Luiz Felipe**, estudante de **Engenharia de Software na Universidade do Estado do Pará (UEPA)**, como parte das atividades práticas da disciplina de **Programação Web**.
 
 ---
 
-## 📌 Licença
+##  Licença
 
 Este projeto é apenas para fins educacionais. Sinta-se livre para estudar e reutilizar o código com os devidos créditos.
