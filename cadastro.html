@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro-style.css">
+    <title>Página de cadastro</title>
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <form>
+        <div>
+            <fieldset class = "informacoes-pessoais">
+                <legend>Informações Pessoais</legend>
+
+                <input type = "text" id = "nome" placeholder = "Nome" required>
+                
+                <input type = "number" id = "idade" placeholder  = "Idade" min = "0" required>
+
+                <label for = "Data de nascimento">Data de nascimento</label>
+                <input type = "date"  id = "data-nascimento" placeholder = "Data de nascimento" required>
+
+                <label>Sexo</label>
+                <input type = "radio" id = "sexo-masculino" name = "sexo" value = "masculino" required>
+                <label
+                    for = "sexo-masculino">Masculino
+                </label>
+
+                <input type = "radio" id = "sexo-feminino" name = "sexo" value = "feminino" required>
+                <label
+                    for = "sexo-feminino">Feminino
+                </label>
+            </fieldset>
+
+            <fieldset class = "contato">
+                <legend>Informações de contato</legend>
+
+                <input type ="tel" id = "telefone" placeholder = "Telefone" maxlength = "11" required>
+
+                <input type = "email" id = "email" placeholder = "E-mail" required>
+
+                <label for = "email-contato-confirmacao">
+                <input type = "checkbox" id = "email-contato-confirmacao">
+                Usar este e-mail para contato
+                </label>
+            </fieldset>
+
+            <fieldset class = "endereco">
+                <legend>Informações de endereço</legend>
+
+                <input type = "text" id = "rua" placeholder = "Rua">
+                <input type = "text" id = "numero" placeholder = "Nº">
+                <input type = "text" id = "bairro" placeholder = "Bairro">
+                <input type = "text" id = "cidade" placeholder = "Cidade" required>
+                <input type = "text" id = "estado" placeholder = "Estado" required>
+            </fieldset>
+            <input type = "button" value = "Cadastrar">
+        </div>
+        </form>
+</body>
+</html>
